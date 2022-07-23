@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  text-align: center;
+  margin-top: 4rem;
+  font-family: 'Quicksand', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+}
+
+header img {
+  border-radius: 30px;
+  height: 300px;
+}
+
+h1.title {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.about {
+  font-weight: 600;
+  display: inline-block;
+  width: 900px;
+}
+
+.challenge {
+  font-weight: 500;
+  line-height: 1.5rem;
+}
