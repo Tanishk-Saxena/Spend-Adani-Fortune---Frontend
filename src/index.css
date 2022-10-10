@@ -32,13 +32,21 @@ h1.title {
 
 .about {
   font-weight: 600;
-  display: inline-block;
-  width: 900px;
+  /* width: 900px;
+  margin: auto; */
+  margin: 0 10%;
+}
+
+@media screen and (min-width: 1024px) {
+  .about{
+    margin: 0 20%;
+  }
 }
 
 .challenge {
   font-weight: 500;
   line-height: 1.5rem;
+  margin-bottom: 60px;
 }
 
 .balance-bar {
@@ -47,8 +55,9 @@ h1.title {
   font-weight: 600;
   width: 100%;
   height: 100px;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(to bottom, rgb(49, 47, 47), rgb(133, 128, 128));
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   position: sticky;
@@ -66,7 +75,8 @@ h1.title {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  margin: 0 80px;
 }
 
 .item {
@@ -77,14 +87,14 @@ h1.title {
   font-weight: 600;
   font-size: x-large;
   margin: 30px;
-  height: 720px;
-  width: 500px;
   border-radius: 5px;
+  width: 350px;
+  box-shadow: rgb(0 0 0 / 12%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
 }
 
 .item img {
-  height: 500px;
-  width: 500px;
+  height: 350px;
+  width: 350px;
 }
 
 .button-row {
@@ -121,9 +131,51 @@ div.buy:hover {
   background-color: rgb(166, 213, 166);
 }
 
+button.clear-btn {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 1rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #636565;
+  border: 0;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button.clear-btn:hover {
+  background-color: #848a8f;
+}
+
+div.receipt {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 250px;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+div.receipt .receipt-btn {
+  padding: 1rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #636C72;
+  border: 0;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+div.receipt .receipt-btn:hover {
+  background-color: #31373b
+}
+
 .footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 40px;
   font-family: 'Quicksand', sans-serif;
   font-size: larger;
