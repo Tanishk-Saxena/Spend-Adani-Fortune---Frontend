@@ -1,0 +1,230 @@
+[
+    {
+        "name": "AirPods Pro",
+        "cost": 249
+    },
+    {
+        "name": "Nintendo Switch",
+        "cost": 299
+    },
+    {
+        "name": "PS5",
+        "cost": 499
+    },
+    {
+        "name": "Xbox Series X",
+        "cost": 499
+    },
+    {
+        "name": "Iphone 14 Pro Max - 1TB",
+        "cost": 1599
+    },
+    {
+        "name": "Samsung S22 Ultra - 1TB",
+        "cost": 1399
+    },
+    {
+        "name": "MacBook Pro 14' M1 Max (64GB RAM | 4TB)",
+        "cost": 4699
+    },
+    {
+        "name": "2022 Mac Studio M1 Ultra (128GB RAM | 8TB)",
+        "cost": 6999
+    },
+    {
+        "name": "Pro Gaming PC(AMD 5950X, RTX 3090, 64GB, 4TB SSD)",
+        "cost": 4950
+    },
+    {
+        "name": "Razer Blade 14 Top spec (2022)",
+        "cost": 2799
+    },
+    {
+        "name": "Mac Pro Top spec (2022) (28 Cores, 8TB SSD, 1TB RAM, 32GB Video)",
+        "cost": 53799
+    },
+    {
+        "name": "Ipad Air M1 Chip (2022) (256GB)",
+        "cost": 749
+    },
+    {
+        "name": "Tesla Bot (Available 2024)",
+        "cost": 20000
+    },
+    {
+        "name": "Start your own StartUp",
+        "cost": 5000000
+    },
+    {
+        "name": "Open Fast Food Franchise",
+        "cost": 1500000
+    },
+    {
+        "name": "Spotify for 80 years",
+        "cost": 9600
+    },
+    {
+        "name": "Entire Steam library (2022 - No discounts)",
+        "cost": 628000
+    },
+    {
+        "name": "Netflix for 80 Years",
+        "cost": 13500
+    },
+    {
+        "name": "Entire production of Nvidia GPUs for 2022",
+        "cost": 700000000
+    },
+    {
+        "name": "Influence 1 high ranking politician",
+        "cost": 2000000
+    },
+    {
+        "name": "Private Concert with ANY Super Star",
+        "cost": 1000000
+    },
+    {
+        "name": "Give 10,000 USD to 5000 people",
+        "cost": 50000000
+    },
+    {
+        "name": "LG 88' OLED 8K ThinQ®",
+        "cost": 19990
+    },
+    {
+        "name": "Fiat 500",
+        "cost": 19000
+    },
+    {
+        "name": "Toyota Camry",
+        "cost": 29000
+    },
+    {
+        "name": "Ford F150 Raptor 2022",
+        "cost": 65900
+    },
+    {
+        "name": "Tesla Model S Plaid",
+        "cost": 132000
+    },
+    {
+        "name": "Cybertruck (Tri Motor)",
+        "cost": 70000
+    },
+    {
+        "name": "Tesla Roadster 2022",
+        "cost": 200000
+    },
+    {
+        "name": "Ferrari F8",
+        "cost": 276000
+    },
+    {
+        "name": "Lamborghini Aventador SVJ",
+        "cost": 512000
+    },
+    {
+        "name": "Bugatti La Voiture Noire",
+        "cost": 11000000
+    },
+    {
+        "name": "1000 Acres of land",
+        "cost": 4100000
+    },
+    {
+        "name": "Private Island, Central America (medium size)",
+        "cost": 4950000
+    },
+    {
+        "name": "Eating out for 80 years (4 meals/day)",
+        "cost": 3100000
+    },
+    {
+        "name": "Diamond Ring (Tiffany - 1 carat)",
+        "cost": 17000
+    },
+    {
+        "name": "Whisky Macallan Michael Dillon 1926",
+        "cost": 1530000
+    },
+    {
+        "name": "Rolex",
+        "cost": 12000
+    },
+    {
+        "name": "Les Femmes d’Alger by Picasso",
+        "cost": 179400000
+    },
+    {
+        "name": "Monalisa by Leonardo da Vinci (estimate)",
+        "cost": 869000000
+    },
+    {
+        "name": "Helicopter Bell 206",
+        "cost": 750000
+    },
+    {
+        "name": "10 plastic surgeries",
+        "cost": 130000
+    },
+    {
+        "name": "One week in EVERY country of the planet",
+        "cost": 1250000
+    },
+    {
+        "name": "College Education (USA)",
+        "cost": 170000
+    },
+    {
+        "name": "NFL Team (Average)",
+        "cost": 3000000000
+    },
+    {
+        "name": "NBA Team (Average)",
+        "cost": 2400000000
+    },
+    {
+        "name": "F1 Team (Average)",
+        "cost": 700000000
+    },
+    {
+        "name": "Jet Gulfstream G450",
+        "cost": 17000000
+    },
+    {
+        "name": "M1 Abrams",
+        "cost": 8000000
+    },
+    {
+        "name": "Produce a Hollywood Movie",
+        "cost": 90000000
+    },
+    {
+        "name": "Regular Modern Apartment (3 bd, 2 ba)",
+        "cost": 320000
+    },
+    {
+        "name": "Paris Luxury Apartment(3 bd, 3 ba)",
+        "cost": 3200000
+    },
+    {
+        "name": "L.A. Home (5bd, 6ba)",
+        "cost": 6000000
+    },
+    {
+        "name": "L.A. Mega Mansion (8 bd, 20 ba)",
+        "cost": 52000000
+    },
+    {
+        "name": "Modern Building (35 condos + 10 Offices)",
+        "cost": 12000000
+    },
+    {
+        "name": "Sailboat",
+        "cost": 130000
+    },
+    {
+        "name": "Mega Yatch",
+        "cost": 300000000
+    }
+]
