@@ -152,14 +152,25 @@ button.clear-btn:hover {
 div.receipt {
   display: flex;
   flex-direction: column;
-  width: 200px;
-  height: 250px;
+  min-height: 250px;
   align-items: center;
-  justify-content: space-around;
   margin: auto;
 }
 
+div.receipt .receipt-record {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+div.receipt .receipt-total {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
 div.receipt .receipt-btn {
+  margin-top: 25px;
   padding: 1rem;
   border-radius: 5px;
   color: white;
