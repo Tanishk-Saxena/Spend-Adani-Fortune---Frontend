@@ -169,10 +169,10 @@ div.receipt .receipt-total {
   margin: 10px 0;
 }
 
-/* .template {
+.template {
   visibility: hidden;
   height: 0;
-} */
+}
 
 div.receipt .receipt-btn {
   margin-top: 25px;
