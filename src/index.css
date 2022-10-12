@@ -219,3 +219,10 @@ div.receipt .receipt-btn:hover {
   font-family: 'Courier New', Courier, monospace;
   font-size: small;
 }
+
+@media print {
+  footer {
+    position: fixed;
+    bottom: 20px;
+  }
+}

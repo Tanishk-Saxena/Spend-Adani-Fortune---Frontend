@@ -4,13 +4,13 @@ const Template = React.forwardRef((props, ref) => {
   const { receipt, expense } = props;
   let date = new Date();
   return (
-    <div ref={ref} style={{display: "flex", flexDirection: "column", justifyContent: "space-between", height: "290mm", padding: "10px"}}>
+    <div ref={ref} style={{display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "10px"}}>
         <div style={{display: "flex", flexDirection: "column"}}>
             <header className="print_header">
                 <h1 className="receipt_title">Spend Adani's Fortune</h1>
-                <div style={{display: "flex", justifyContent: "space-between", width: "210mm"}}>
+                <div style={{display: "flex", justifyContent: "space-between", width: "100vw"}}>
                     <h4>{date.toLocaleString()}</h4>
-                    <h4>Spend Adani's Fortune</h4>
+                    <h4 style={{paddingRight: "10px"}}>Spend Adani's Fortune</h4>
                 </div>
             </header>
             <div className="print_body">
