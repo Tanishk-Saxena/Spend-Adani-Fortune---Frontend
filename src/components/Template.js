@@ -8,7 +8,7 @@ const Template = React.forwardRef((props, ref) => {
         <div style={{display: "flex", flexDirection: "column"}}>
             <header className="print_header">
                 <h1 className="receipt_title">Spend Adani's Fortune</h1>
-                <div style={{display: "flex", justifyContent: "space-between", width: "100vw"}}>
+                <div style={{display: "flex", justifyContent: "space-between", width: "95vw"}}>
                     <h4>{date.toLocaleString()}</h4>
                     <h4 style={{paddingRight: "10px"}}>Spend Adani's Fortune</h4>
                 </div>
