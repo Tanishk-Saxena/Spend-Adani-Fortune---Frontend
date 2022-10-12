@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useSelector } from 'react-redux';
+import { useReactToPrint } from 'react-to-print';
+import Template from './Template';
 
 const Receipt = () => {
 
   const receipt = useSelector(state => state.receipt);
   const expense = useSelector(state => state.expense);
+  const componentRef = useRef();
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current
+  })
   
   return (
     <div className="receipt">
@@ -16,7 +22,10 @@ const Receipt = () => {
         })
       }
       {expense!==0?<h4 className="receipt-total">Total: ₹ {expense.toLocaleString()}</h4>:''}
-      <button className="receipt-btn">Print Receipt</button>
+      <div className="template">
+        <Template ref={componentRef} receipt={receipt} expense={expense}/>
+      </div>
+      <button onClick={handlePrint} className="receipt-btn">Print Receipt</button>
     </div>
   )
 }
