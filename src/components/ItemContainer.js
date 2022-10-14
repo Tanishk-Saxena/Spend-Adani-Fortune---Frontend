@@ -8,7 +8,8 @@ const ItemContainer = () => {
 
   const [restart, setRestart] = useState(true);
   const [items, setItems] = useState([]);
-  const items_url = 'http://localhost:5555/get_items';
+  // const items_url = 'http://localhost:5555/get_items';
+  const items_url = process.env.REACT_APP_SERVER_API;
 
   const fetchItems = async () => {
     let data = await fetch(items_url);
@@ -30,7 +31,7 @@ const ItemContainer = () => {
         let cost_in_rs = item.cost * 82.40;
         let rounded_off_cost = Math.round(cost_in_rs/1000)*1000;
         return(
-          <Item restart={restart} setRestart={setRestart} key={index} image={`item${index+1}`} name={item.name} cost={rounded_off_cost}/>
+          <Item restart={restart} setRestart={setRestart} key={item.id} image={item.image} name={item.name} cost={rounded_off_cost}/>
         );
       })}
     </div>

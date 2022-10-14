@@ -17,7 +17,7 @@ const Item = ({image, name, cost, setRestart, restart}) => {
   return (
     <>
     <div className='item'>
-        <img src={require(`../images/${image}.jpg`)} alt="image description" />
+        <img src={require(`../images/${image}`)} alt="image description" />
         <p className="name">{name}</p>
         <p className="price">₹ {cost.toLocaleString()}</p>
         <div className='button-row'>
