@@ -8,7 +8,6 @@ const ItemContainer = () => {
 
   const [restart, setRestart] = useState(true);
   const [items, setItems] = useState([]);
-  // const items_url = 'http://localhost:5555/get_items';
   const items_url = process.env.REACT_APP_SERVER_API;
 
   const fetchItems = async () => {
