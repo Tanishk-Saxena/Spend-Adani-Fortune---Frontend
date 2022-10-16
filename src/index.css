@@ -84,7 +84,7 @@ h1.title {
 
 .balance-bar div {
   color: white;
-  padding: 20px 30px;
+  padding: 25px 25px;
 }
 
 @media screen and (max-width: 425px) {
@@ -142,7 +142,11 @@ div.sell {
 }
 
 div.sell:hover {
-  background-color: rgb(228, 152, 152);
+  background-color: rgb(250, 110, 110);
+}
+
+div.sell:active {
+  background-color: rgb(150, 92, 92);
 }
 
 div.buy {
@@ -150,7 +154,11 @@ div.buy {
 }
 
 div.buy:hover {
-  background-color: rgb(166, 213, 166);
+  background-color: rgb(155, 247, 155);
+}
+
+div.buy:active {
+  background-color: rgb(105, 196, 105);
 }
 
 @media screen and (max-width: 425px) {
