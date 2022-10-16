@@ -98,7 +98,7 @@ h1.title {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .item {
@@ -175,8 +175,8 @@ div.buy:hover {
 button.clear-btn {
   display: block;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   padding: 1rem;
   border-radius: 5px;
   color: white;
@@ -206,7 +206,7 @@ div.receipt .receipt-record {
 div.receipt .receipt-total {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.4rem;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 @media screen and (max-width: 425px) {
@@ -217,7 +217,7 @@ div.receipt .receipt-total {
   
   div.receipt .receipt-total {
     font-size: 1.2rem;
-    margin: 20px 5px 5px;
+    margin: 20px 5px;
   }
 }
 
