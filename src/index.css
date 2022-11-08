@@ -250,6 +250,15 @@ div.receipt .receipt-btn:hover {
   background-color: #31373b
 }
 
+div.receipt .receipt-btn:disabled {
+  background-color: #9daab3;
+  cursor:default;
+}
+
+div.receipt .receipt-btn:disabled:hover {
+  background-color: #9daab3;
+}
+
 .footer {
   text-align: center;
   margin-top: 50px;
