@@ -25,7 +25,7 @@ const Receipt = () => {
       <div className="template">
         <Template ref={componentRef} receipt={receipt} expense={expense}/>
       </div>
-      <button onClick={handlePrint} className="receipt-btn">Print Receipt</button>
+      <button disabled={expense===0?true:false} onClick={handlePrint} className="receipt-btn">Print Receipt</button>
     </div>
   )
 }
