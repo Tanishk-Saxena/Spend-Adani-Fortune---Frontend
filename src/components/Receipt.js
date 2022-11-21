@@ -18,7 +18,9 @@ const Receipt = () => {
       {
         receipt.map((item, index) => {
           if(item.freq > 0)
-            return <h5 className="receipt-record" key={index}>{item.name} x {item.freq}</h5>
+            return <h5 className="receipt-record" key={index}>{item.name} x {item.freq}</h5>;
+          else
+            return null;
         })
       }
       {expense!==0?<h4 className="receipt-total">Total: ₹ {expense.toLocaleString()}</h4>:''}

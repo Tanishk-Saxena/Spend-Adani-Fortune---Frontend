@@ -18,6 +18,7 @@ const ItemContainer = () => {
 
   useEffect(() => {
     fetchItems();
+    // eslint-disable-next-line
   }, [])
   
   const dispatch = useDispatch();

@@ -18,7 +18,7 @@ const Item = ({image, name, cost, setRestart, restart}) => {
     <>
     <div className='item'>
         <div className="image-container">
-          <img src={require(`../images/${image}`)} alt="image description" />
+          <img src={require(`../images/${image}`)} alt="item description" />
         </div>
         <div className="container">
           <div className="details-container">
