@@ -48,7 +48,7 @@ Start the server
 To run this project, you will need to add the following environment variables to your .env file
 
 `SERVER_API` - backend to which you will connect this client for processing code and relaying output.
-Either clone [Server](https://github.com/Tanishk-Saxena/Spend-Adani-Fortune---Backend) repository and use that locally, or use already hosted server: http://spend-adani-fortune-backend.vercel.app/ .
+Either clone [server](https://github.com/Tanishk-Saxena/Spend-Adani-Fortune---Backend) repository and use that locally, or use already hosted server: http://spend-adani-fortune-backend.vercel.app/ .
 
 ## Documentation
 
